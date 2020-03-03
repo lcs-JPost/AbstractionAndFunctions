@@ -26,9 +26,62 @@ import Foundation
  
  */
 // Begin your work here...
+/// Calculates the area of a triangle
+/// - Parameters:
+///   - LineA: A line on the triangle
+///   - Height: The height of the triangle falling on LineA with a 90 Degree Angle
+func triangleArea(LineA: Double, Height: Double) {
+    (LineA * Height) / 2
+}
 
+/// Calculates the perimeter of a triangle
+/// - Parameters:
+///   - LineA: A line of the triangle
+///   - LineB: Another line of the Triangle
+///   - LineC: The third line of a triangle
+func trianglePerimeter(LineA: Double, LineB: Double, LineC: Double) {
+    LineA + LineB + LineC
+}
 
+/// Calculates the are of a circle
+/// - Parameter Radius: The radius of the circle
+func criclePerimeter (Radius: Double) {
+    Double.pi * 2 * Radius
+}
 
+/// Calculates the Area of a circle
+/// - Parameter Radius: The Radius of the circle
+func circleArea (Radius: Double) {
+    Double.pi * pow(Radius, 2)
+}
+
+/// Calculates the surface area of a cone
+/// - Parameters:
+///   - Radius: The radius of the base of the cone
+///   - LineS: A line connecting the Base to the top of the cone
+func coneSurface(Radius: Double, LineS: Double) {
+    Double.pi * pow(Radius, 2) + Double.pi * Radius * LineS
+}
+
+/// Calculates the Volume of a cone
+/// - Parameters:
+///   - Radius: The radius of the base of the cone
+///   - Height: The height of the cone
+func coneVolume(Radius: Double, Height: Double) {
+    (Double.pi * pow(Radius, 2) * Height) / 3
+}
+
+/// Calculates the Surface of a sphere
+/// - Parameter Radius: The Radius of a sphere
+func sphereSurface(Radius: Double) {
+    4 * Double.pi * pow(Radius, 2)
+}
+
+/// Calculates the Volume of a sphere
+/// - Parameter Radius: The radius of the sphere
+func sphereVolume(Radius: Double) {
+    (Double.pi * 4 * pow(Radius, 3)) / 3
+}
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */

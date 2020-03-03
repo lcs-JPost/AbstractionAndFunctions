@@ -21,7 +21,7 @@ func areaOfRectangle(length: Double, width: Double) -> Double {
     
     return length * width
     
-}
+
 
 /*:
  
@@ -34,6 +34,8 @@ let result = areaOfRectangle(length: 10, width: 5)
 
 // Report the results
 print("The area of that rectangle was \(result) square units.")
+
+
 
  
 /*:
