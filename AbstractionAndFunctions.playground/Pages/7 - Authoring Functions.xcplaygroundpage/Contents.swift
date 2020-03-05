@@ -31,8 +31,14 @@ import Foundation
 ///   - LineA: A line on the triangle
 ///   - Height: The height of the triangle falling on LineA with a 90 Degree Angle
 func triangleArea(LineA: Double, Height: Double) {
+    
+    guard LineA > 0, Height > 0 else {
+        return
+    }
+    // we have no bad input, so we can go on with the calculation
     (LineA * Height) / 2
 }
+
 
 /// Calculates the perimeter of a triangle
 /// - Parameters:

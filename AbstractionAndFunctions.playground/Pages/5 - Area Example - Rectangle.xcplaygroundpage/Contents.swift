@@ -19,8 +19,11 @@
 /// - Returns: area of the rectangle
 func areaOfRectangle(length: Double, width: Double) -> Double {
     
+    guard height > 0, width > 0 else {
+        return nil 
+    }
     return length * width
-    
+}
 
 
 /*:
