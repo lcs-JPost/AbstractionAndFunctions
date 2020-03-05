@@ -82,6 +82,12 @@ func sphereSurface(Radius: Double) {
 func sphereVolume(Radius: Double) {
     (Double.pi * 4 * pow(Radius, 3)) / 3
 }
+
+circleArea(Radius: 4)
+
+sphereVolume(Radius: 7)
+
+coneSurface(Radius: 3, LineS: 8)
 /*:
  [Previous: Writing Documentation](@previous) | Page 7
  */
